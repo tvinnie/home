@@ -8,7 +8,7 @@ export default function Navbar() {
             <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center'>
                 <img className='logo-img' alt='personal-logo' src='./snap.jpg'/>
                 <h5 className='title-font font-medium text-white mb-4 md:mb-0'>
-                    <a href='/' className='ml-3 text-xl'> Vincent </a>
+                    <a href='/' className='ml-3 mr-3 text-xl'> Vincent Kipruto </a>
                 </h5>
 
                 <nav className='md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center'>
@@ -17,7 +17,7 @@ export default function Navbar() {
                 <a href='#testimonials' className='mr-5 hover:text-white'>Testimonials</a>
                 </nav>
 
-                <a href='#contact' className='inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base nt-4 md:mt-0'>
+                <a href='#contact' className='inline-flex items-center bg-green-500 border-0 py-2 px-6 text-white focus:outline-none hover:bg-green-700 rounded text-base nt-4 md:mt-0'>
                     Hire Me
                     <ArrowRightIcon className='w-4 h-4 ml-1'/>
                     </a>
