@@ -1,34 +1,33 @@
 export const projects = [
     {
-        title: "MoFlix",
-        subtitle: "React | OMDb API | Bootstrap",
+        title: "Website Backend",
+        subtitle: "LoopBackJS |  REST API | NPM | MongoDB | Bootstrap",
         description:
-          "A Movie app that fetches the movies from OMDB api, converts to JSON objects and displays to the user",
-        image: "./mof.gif",
-        link: "https://github.com/tvinnie/MoFlix",
+          "Website backend explorer where we can interact with and test the API endpoints",
+        image: "./apibackend.png",
+        link: "https://github.com/tvinnie/websitebackend-with-REST-API",
       },
       {
-        title: "Adventure",
-        subtitle: "React | React Router DOM",
+        title: "Studio Website",
+        subtitle: "React | React Router DOM | MongoDB | Redux | TailwindCSS",
         description:
-          "Simple Responsive React App",
-        image: "./adv.gif",
-        link: "https://github.com/tvinnie/Adventure",
+          "Simple Responsive Studio App to manage studios portfolio",
+        image: "./studiohome.png",
+        link: "https://github.com/tvinnie/portfolio",
       },
       {
-        title: "Flashpoint",
-        subtitle: "HTML | CSS | JS",
-        description:"A Responsive site where one can order a pizza from the comfort of there home",
-        image: "./flash.gif",
-        link: "https://github.com/tvinnie/Flashpoint",
+        title: " Hospital Management System",
+        subtitle: "Laravel | Jetstream | Sanctum | Livewire | TailwindCSS | MySQL",
+        description:"A Responsive system that allows patients to book appointment with respective specialist doctors.",
+        image: "./onehealth.png",
+        link: "https://github.com/tvinnie/hospital",
       },
       {
-        title: "Epuka App",
-        subtitle: "Android | Firebase |Java | Material UI",
-        description:
-        "Designed a scalable, robust and secure mobile app where addicts in remission can find help.",
-        image: "./epuka.png",
-        link: "https://github.com/tvinnie/epuka",
+        title: "Covid-19 System",
+        subtitle: "Vue | Vue Router |  Rapid API | ReactJS | TailwindCSS",
+        description:"A responsive system that displays current covid statistics globally as well as per country.",
+        image: "./covidstats.png",
+        link: "https://github.com/tvinnie/vue-covid-tracker",
       },
 ]
 export const testimonials = [
@@ -62,12 +61,14 @@ export const testimonials = [
       },
 ]
 export const skills = [
-    "JavaScript",
-    "React",
-    "Next.js",
-    "Node",
+    "ReactJs",
+    "VueJs",
+    "NodeJs",
+    "Laravel",
     "Version Control",
     "Material UI",
-    "Android",
-    "Java"
+    "Bootstrap",
+    "TailwindCSS",
+    "PostreSQL | MongoDB",
+    "REST API(with LoopBackJS)"
 ]

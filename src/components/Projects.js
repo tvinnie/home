@@ -1,4 +1,5 @@
-import { CodeIcon } from "@heroicons/react/solid";
+import { CodeIcon, ArrowRightIcon } from "@heroicons/react/solid";
+
 import React from "react";
 import { projects} from '../data';
 
@@ -37,6 +38,13 @@ export default function Projects() {
                             </div>
                         </a>
                     ))}
+                </div>
+                <div className="d-flex justify-content-center mb-20 mt-20">
+
+                    <a href='https://github.com/tvinnie' className='inline-flex items-center bg-green-500 border-0 py-2 px-6 text-white focus:outline-none hover:bg-green-700 rounded text-base nt-4 md:mt-0'>
+                    More Projects
+                    <ArrowRightIcon className='w-4 h-4 ml-1'/>
+                    </a>
                 </div>
             </div>
         </section>
