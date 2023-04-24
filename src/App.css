@@ -42,5 +42,6 @@
   width: auto;
   max-height: 72px;
   max-width: 250px;
-  border-radius: 45%;
+  border: 1px solid;
+  border-radius: 50%;
 }

@@ -122,8 +122,8 @@ export default function Contact() {
         </form> 
       </div> */}
 
-          <footer class="page-footer font-small blue">         
-          <div class="footer-copyright text-center py-3">© 2022 Copyright:
+          <footer className="page-footer font-small blue">         
+          <div className="footer-copyright text-center py-3">© 2022 Copyright:
             <a href="https://kiprutovincent.netlify.app/"> Kipruto Vincent</a>
           </div>
           </footer>

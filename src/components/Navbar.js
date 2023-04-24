@@ -2,6 +2,8 @@ import { ArrowRightIcon} from '@heroicons/react/solid';
 import React from 'react';
 import '../App.css';
 
+const url = 'http://facebook.com';
+
 export default function Navbar() {
     return(
         <header className='bg-gray-800 md:sticky top-0 z-10'>
@@ -17,8 +19,8 @@ export default function Navbar() {
                 <a href='#testimonials' className='mr-5 hover:text-white'>Testimonials</a>
                 </nav>
 
-                <a href='#contact' className='inline-flex items-center bg-green-500 border-0 py-2 px-6 text-white focus:outline-none hover:bg-green-700 rounded text-base nt-4 md:mt-0'>
-                    Hire Me
+                <a href={`${url}`} target='_blank' rel="noreferrer" className='inline-flex items-center bg-green-500 border-0 py-2 px-6 text-white focus:outline-none hover:bg-green-700 rounded text-base nt-4 md:mt-0'>
+                    Linkedin
                     <ArrowRightIcon className='w-4 h-4 ml-1'/>
                     </a>
             </div>
