@@ -2,7 +2,7 @@ import { ArrowRightIcon} from '@heroicons/react/solid';
 import React from 'react';
 import '../App.css';
 
-const url = 'http://facebook.com';
+const url = 'https://www.linkedin.com/in/vincent-too/';
 
 export default function Navbar() {
     return(
